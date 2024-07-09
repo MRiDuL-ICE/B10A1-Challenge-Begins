@@ -185,7 +185,7 @@ html {
     margin-top: 48px;
 }
 
-.do-coding-content h1 {
+.content h1 {
     color: rgba(13, 19, 33, 0.7);
     font-family: Azeret Mono;
     font-size: 24px;
@@ -203,7 +203,7 @@ html {
     margin-bottom: 30px;
 }
 
-.do-coding-content p {
+.content p {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -222,7 +222,7 @@ html {
     margin-bottom: 25px;
 }
 
-.do-coding-content button {
+.content button {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -236,7 +236,7 @@ html {
 
 }
 
-.do-coding-content button a {
+.content button a {
     width: 180px;
     height: 24px;
     text-decoration: none;
@@ -267,74 +267,21 @@ html {
     margin: 0 auto;
     margin-top: 48px;
 }
-
-.help-people-content h1 {
-    color: rgba(13, 19, 33, 0.7);
-    font-family: Azeret Mono;
-    font-size: 24px;
-    font-weight: 700;
-    line-height: 36px;
-    letter-spacing: 0%;
-    text-align: left;
-    width: 477px;
-height: 72px;
+.change-world-section-container{
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
+    width: 946px;
+    height: 336px;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    padding: 0px;
-    margin-bottom: 30px;
-}
-
-.help-people-content p {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
+    justify-content: space-between;
     align-items: center;
-    padding: 0px;
-    width: 468px;
-height: 52px;
-    color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 26px;
-    letter-spacing: 0%;
-    text-align: left;
-    opacity: 0.7;
-    margin-bottom: 25px;
+    padding: 48px;
+    margin: 0 auto;
+    margin-top: 48px;
 }
 
-.help-people-content button {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 12px 20px 12px 20px;
-    width: 230px;
-    height: 48px;
-    box-sizing: border-box;
-    border: 1px solid rgb(13, 19, 33);
-    opacity: 0.7;
 
-}
 
-.help-people-content button a {
-    width: 180px;
-    height: 24px;
-    text-decoration: none;
-    color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
-    font-size: 20px;
-    font-weight: 600;
-    line-height: 23px;
-    letter-spacing: 0%;
-    text-align: center;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 12px 20px 12px 20px;
-}
+
 
 /* why-development-section ends here */
