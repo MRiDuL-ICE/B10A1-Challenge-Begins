@@ -362,4 +362,155 @@ html {
 }
 
 
+
+
 /* my-inspiration-section ends here  */
+
+/* my-current-target section starts here  */
+
+.my-current-target {
+    width: 1620px;
+    height: 563px;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+
+.current-target-title-section {
+    width: 1246px;
+    height: 165px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px;
+}
+
+.current-target-title-section h1 {
+    width: 852px;
+    height: 39px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px;
+    margin-bottom: 25px;
+}
+
+.current-target-title-section p {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    width: 852px;
+    height: 52px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px;
+}
+
+.target-card-container {
+    width: 1620px;
+    height: 310px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+
+.target-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 40px;
+    border-radius: 16px;
+    width: 424px;
+    height: 370px;
+}
+
+.target-card img {
+    width: 79.68px;
+    height: 85px;
+    margin-bottom: 20px;
+}
+
+.target-card h1 {
+    width: 584px;
+    height: 96px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    letter-spacing: 0%;
+    padding: 0px;
+    margin-bottom: 0;
+}
+
+.target-card p {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    opacity: 0.7;
+    width: 484px;
+    height: 52px;
+    margin: 0;
+    opacity: 0.7;
+}
+
+.target-card a {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration-line: underline;
+    width: 284px;
+    height: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0px;
+}
+
+.target-card:hover {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 40px;
+    border-radius: 16px;
+    width: 444px;
+    height: 390px;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(0, 209, 252, 1) 0%, rgba(155, 239, 251, 1) 100%);
+    box-shadow: 20px 20px 10px rgba(49, 134, 204, 0.534);
+}
+
+
+
+
+
+/* my-current-target section ends here  */
