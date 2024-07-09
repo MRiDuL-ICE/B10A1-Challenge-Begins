@@ -23,7 +23,6 @@ html {
     height: 930px;
     min-height: 700px;
     margin: 0 auto;
-    border: 2px solid red;
     background-image: url("assets/Hero-bg.png");
 }
 
@@ -111,3 +110,16 @@ html {
 
 
 /* banner-section ends header */
+
+/* why-development-section starts here */
+.why-development-section-container{
+    width: 1620px;
+    height: 1790px;
+    min-height: 1790px;
+    border: 2px solid red;
+    margin: 0 auto;
+    margin-top: 150px;
+}
+
+
+/* why-development-section ends here */
