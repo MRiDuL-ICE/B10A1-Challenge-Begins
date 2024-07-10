@@ -88,6 +88,21 @@ html {
     justify-content: center;
     align-items: center;
     padding: 12px 14px;
+    cursor: pointer;
+}
+.banner-content-container button:hover {
+    margin-top: 50px;
+    width: 280px;
+    height: 86px;
+    border-radius: 8px;
+    background: grey;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 14px;
+    cursor: pointer;
 }
 
 .banner-content-container button a {
@@ -106,7 +121,9 @@ html {
     justify-content: center;
     align-items: center;
     padding: 12px 14px;
+    cursor: pointer;
 }
+
 
 
 
@@ -192,7 +209,7 @@ html {
     line-height: 36px;
     letter-spacing: 0%;
     text-align: left;
-    width: 390px;
+    width: 490px;
     height: 72px;
     display: flex;
     flex-direction: column;
@@ -251,6 +268,7 @@ html {
     justify-content: center;
     align-items: center;
     padding: 12px 20px 12px 20px;
+    cursor: pointer;
 }
 
 
@@ -418,7 +436,7 @@ html {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    padding: 0px;  
+    padding: 0px;
     opacity: 0.7;
 }
 
@@ -494,6 +512,7 @@ html {
     justify-content: flex-start;
     align-items: flex-start;
     padding: 0px;
+    cursor: pointer;
 }
 
 .target-card:hover {
@@ -514,3 +533,195 @@ html {
 
 
 /* my-current-target section ends here  */
+
+/* support-section starts here  */
+
+.support-section-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 64px 48px 64px 48px;
+    width: 1600px;
+    height: 314px;
+    border-radius: 16px;
+    background-color: rgba(0, 0, 0, 0.6);
+    background-blend-mode: overlay;
+    margin: 0 auto;
+    margin-top: 180px;
+    background-image: url(assets/handshake.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.feedback-form-container {
+    width: 1444px;
+    height: 386px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+}
+
+.feedback-form-container h1 {
+    width: 430px;
+    height: 36px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.feedback-form-container p {
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    width: 906px;
+    height: 52px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    opacity: 0.7;
+    margin-bottom: 45px;
+}
+
+.feedback-form input[type="text"] {
+    width: 748px;
+    height: 67px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    padding: 19px 20px 19px 20px;
+    background: rgb(255, 255, 255);
+    border: none;
+}
+
+.feedback-form ::placeholder {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 19px 20px 19px 20px;
+    width: 313px;
+    height: 19px;
+    color: rgba(13, 19, 33, 0.4);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.feedback-form input[type="submit"] {
+    margin-left: 20px;
+    border-radius: 8px;
+    position: static;
+    width: 120px;
+    height: 67px;
+    padding: 17px 20px 17px 20px;
+    background: rgb(255, 255, 255);
+    border: none;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    cursor: pointer;
+}
+
+.feedback-form input[type="submit"]:hover {
+    margin-left: 20px;
+    border-radius: 8px;
+    position: static;
+    width: 120px;
+    height: 67px;
+    padding: 17px 20px 17px 20px;
+    background: gray;
+    color: white;
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    cursor: pointer;
+}
+
+.feedback-form {
+    margin: 0 auto;
+    width: 1084px;
+    height: 67px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.support-section-content {
+    width: 930px;
+    height: 204px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+}
+
+
+/* support-section ends here  */
+
+/* footer-section starts here  */
+
+.footer-container {
+    width: 1900px;
+    height: 100px;
+    margin: 0 auto;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+}
+
+.footer-content h1 {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    width: 790px;
+    height: 24px;
+}
+
+.footer-container a {
+    text-decoration: none;
+}
+.footer-container img {
+    margin-right: 20px;
+}
+
+
+/* footer-section ends here  */
